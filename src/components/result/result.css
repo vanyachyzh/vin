@@ -62,43 +62,43 @@
 
 @media screen and (max-width: 1500px) {
     .content{
-        display: flex;
-        justify-content: center;
+        display: block;
         width: 100%;
-        margin: auto;
-        padding: 0px;
+        margin: 0 auto;
+        padding: 0;
         position: relative;
-        padding-left:30px;
     }
     .vl {
+        position: absolute;
         visibility: hidden;
     }
     .recent-results{
-        margin-top: 10px;
         position: relative;
-        left:-45px;
-        display: flex;
-        width: 400px;
+        right: 0;
+        display: block;
+        width: 310px;
+        margin: auto;
+        margin-bottom:  10px;
     }
     .recent-results li{
-        width: 80px;
-        display: block;
-        margin-top: 0;
-        margin-bottom: 3px;
         box-shadow: none;
         border: none;
-        color: #C9CD78;
-        font-size: 11px;
-        font-weight: 600;
-        margin-right: 12px;
+        background-color: #C9CD78;
+
     }
     .item{
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 500px;
         padding: 0px;
+        margin: auto;
         list-style: none;
         font-family: 'Oswald', sans-serif;
+    }
+}
+@media screen and (max-width: 500px) {
+    .item{
+        width: 310px;
     }
 }
 

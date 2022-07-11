@@ -26,7 +26,6 @@ function Result() {
             })
     }
 
-    var five = ["1FTFW1CT5DFC10312", "1FTFW1CT5DFC10312", "1FTFW1CT5DFC10312", "1FTFW1CT5DFC10312", "1FTFW1CT5DFC10312"]
     return (
         <>
             <div className="content">

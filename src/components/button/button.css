@@ -16,3 +16,10 @@
     width: 20px;
     height: 20px;
 }
+@media screen and (max-width: 1500px) {
+    .button-list{
+        height: 40px;
+        width: 310px;
+        margin: auto;
+    }
+}
