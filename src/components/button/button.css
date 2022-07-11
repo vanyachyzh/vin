@@ -1,0 +1,18 @@
+.button-list{
+    height: 40px;
+    width: 80px;
+    background-color: #D25F59;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 0px 10px #D25F59; */
+    cursor: pointer;
+}
+.button-list:hover{
+    background-color: #ffdddb;
+}
+.button-list img{
+    width: 20px;
+    height: 20px;
+}
