@@ -11,3 +11,13 @@
   color: black;
 }
 
+@media screen and (max-width: 1500px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+}

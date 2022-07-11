@@ -57,3 +57,19 @@
     color: rgb(112, 112, 250);
     border-top: 1px solid rgb(112, 112, 250);
 }
+
+@media screen and (max-width: 1500px) {
+    .error{
+        left: 6px;
+        bottom: 45px;
+        border-bottom: 1px solid rgb(112, 112, 250);
+        border-top: none;
+        font-size: 9px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .input-wrapper{
+        margin: 0 10px 0 10px;
+    }
+}
